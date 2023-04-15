@@ -1,7 +1,7 @@
 .navigation{
     position:fixed;
     margin:2px;
-    top:100px;
+    top:80px;
     left:0px;
     width:100px;
     height: 100%;
@@ -11,24 +11,57 @@
     color:black;
     font-size:20px;
     padding:5px;
+    text-align:left;
+    gap:20px;
+}
+.navigation ul li{
+    list-style:none;
+    display:flex;
+    flex-direction:row;
+    
 }
 .main{
     display:block;
     position:relative;
     width:50%;
-    left:250px;
-    top:0px;
+    left:220px;
+    top:80px;
 }
 .submain{
     font-weight:200px;
     font-family:Georgia, 'Times New Roman', Times, serif;
     background-color:rgb(241, 237, 230);
     padding:6px;
+    width:550px;
 }
 #img1{
     width:100px;
     height:100px;
     position:fixed;
-    left:50px;
+    left:120px;
     top:2px;
+}
+.sidebar{
+    margin:2px;
+    position:relative;
+    right:-750px;
+    width:100px;
+    height:100px;
+    top:-590px;
+
+}
+.sidebar h3{
+    text-align:right;
+    display:flex;
+    width:400px;
+    left:300px;
+    padding:50px;
+}
+.sidebar p{
+    text-align:centre;
+    display:flex;
+    width:400px;
+    position:relative;
+    right:-600px;
+    bottom:370px;
 }

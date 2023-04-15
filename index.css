@@ -1,0 +1,34 @@
+.navigation{
+    position:fixed;
+    margin:2px;
+    top:100px;
+    left:0px;
+    width:100px;
+    height: 100%;
+}
+.navigation ul li a{
+    list-style:none;
+    color:black;
+    font-size:20px;
+    padding:5px;
+}
+.main{
+    display:block;
+    position:relative;
+    width:50%;
+    left:250px;
+    top:0px;
+}
+.submain{
+    font-weight:200px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color:rgb(241, 237, 230);
+    padding:6px;
+}
+#img1{
+    width:100px;
+    height:100px;
+    position:fixed;
+    left:50px;
+    top:2px;
+}

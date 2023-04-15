@@ -51,11 +51,12 @@
 
 }
 .sidebar h3{
+    position:relative;
     text-align:right;
     display:flex;
     width:400px;
-    left:300px;
-    padding:50px;
+    left:100px;
+    top:0px;
 }
 .sidebar p{
     text-align:centre;
@@ -64,4 +65,5 @@
     position:relative;
     right:-600px;
     bottom:370px;
+    font-weight:400px;
 }

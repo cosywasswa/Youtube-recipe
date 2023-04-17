@@ -1,10 +1,11 @@
 .navigation{
     position:fixed;
     margin:2px;
-    top:80px;
+    top:100px;
     left:0px;
-    width:100px;
+    width:200px;
     height: 100%;
+    background-color:aquamarine;
 }
 .navigation ul li a{
     list-style:none;
@@ -63,7 +64,41 @@
     display:flex;
     width:400px;
     position:relative;
-    right:-600px;
+    right:-540px;
     bottom:370px;
     font-weight:400px;
+}
+
+
+.body{
+    width:100%;
+    min-height:100vh;
+}
+.search{
+    width:50px;
+    height:20px;
+    padding:2px;
+    position:absolute;
+    left:400px;
+    top:25px;
+}
+#img2{
+    width:100%;
+    height:70%;
+}
+.search-bar button{
+    position:relative;
+    left:208px;
+    top:-33px;
+    width:115%;
+
+}
+.search-bar input{
+    width:200px;
+    height:30px;
+    
+}
+.search-bar{
+    border-radius:40px;
+    background:rgba(255,255,255,0.4);
 }

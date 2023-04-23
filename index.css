@@ -29,6 +29,7 @@
     width:50%;
     left:220px;
     top:80px;
+    font-family: 'YouTube sans';
    
 }
 .submain{
@@ -53,19 +54,20 @@
 }
 #me{
     position:relative;
-    top:-40px;
+    top:-35px;
     left:50px;   
 }
 #subscribe{
     position:relative;
-    top:-90px;
+    top:-85px;
     left:200px; 
     background-color: black;
     color:aliceblue;
     width:100px;
     height:40px;
-    text-align: center;
     border-radius:100px/50px;
+    text-decoration-line:inherit ;
+ text-align: center;
 }
 #img1{
     width:150px;
